@@ -134,6 +134,7 @@ header {
   padding: 10px 32px;
   min-width: 136px;
   text-align: center;
+  border-radius: 5px;
 }
 .button.portfolio {
   font-family: "Roboto";
@@ -217,8 +218,9 @@ header {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 24px;
   margin-top: 0;
+  margin-bottom: 0;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -310,6 +312,11 @@ header {
 .team-worker {
   background-color: var(--background-color-white);
   margin-right: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.img {
 }
 
 .team-worker:nth-child(4) {
@@ -380,6 +387,9 @@ header {
 }
 
 /* footer*/
+.test-class {
+  margin-bottom: 20px;
+}
 .class {
   font-family: Raleway;
   font-style: normal;
